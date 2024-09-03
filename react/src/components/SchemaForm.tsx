@@ -1,7 +1,8 @@
 import * as React from "react";
 
-import MuiForm from "@rjsf/material-ui";
+import MuiForm from "@rjsf/mui";
 import { JSONSchema7 } from "json-schema";
+import validator from "@rjsf/validator-ajv8";
 
 export class SchemaForm extends React.Component<{}, {}> {
     public render() {
@@ -28,7 +29,9 @@ export class SchemaForm extends React.Component<{}, {}> {
             <MuiForm schema={schema}
                 onChange={log("changed")}
                 onSubmit={log("submitted")}
-                onError={log("errors")} />
+                onError={log("errors")}
+                validator={validator}
+            />
         );
     }
 }

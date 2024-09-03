@@ -13,26 +13,28 @@
   "license": "ISC",
   "private": true,
   "devDependencies": {
-    "@types/react": "^16.9.31",
-    "@types/react-dom": "^16.9.6",
-    "@types/superagent": "^4.1.9",
-    "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^6.1.0",
-    "source-map-loader": "^0.2.4",
-    "ts-loader": "^6.2.2",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@types/superagent": "^8.1.9",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "source-map-loader": "^5.0.0",
+    "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.8",
-    "@material-ui/icons": "^4.9.1",
-    "@rjsf/core": "^2.4.0",
-    "@rjsf/material-ui": "^2.4.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.0.1",
+    "@mui/material": "^6.0.1",
+    "@rjsf/mui": "^5.20.1",
+    "@rjsf/validator-ajv8": "^5.20.1",
     "core-decorators": "^0.20.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "superagent": "^5.2.2"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "superagent": "^10.1.0"
   }
 }

@@ -6,9 +6,9 @@ import { TabPanel } from "./TabPanel";
 import { SchemaForm } from "./SchemaForm";
 
 import { autobind } from "core-decorators";
-import Container from "@material-ui/core/Container";
-import Tabs from "@material-ui/core/Tabs";
-import Tab from "@material-ui/core/Tab";
+import Container from "@mui/material/Container";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
 
 interface MainFrameState {
     tabValue: any;
